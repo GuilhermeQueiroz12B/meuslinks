@@ -41,7 +41,7 @@ div h1 {
 }
 
 div strong {
-    color: rgb(71, 8, 178);
+    color: #4708b2;
     font-size: 14px;
     line-height: 21px;
 }
@@ -68,4 +68,11 @@ div a {
     font-weight: 700;
     font-size: 14px;
     line-height: 21px;
+}
+
+div a:hover {
+    background-color: #4708b2;
+    color: #141414;
+    transition: 0.8;
+    
 }
